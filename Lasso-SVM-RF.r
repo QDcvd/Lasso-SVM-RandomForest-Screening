@@ -8,7 +8,7 @@
 #
 library(data.table)
 library(dplyr)
-setwd('./dataSet/2025-7-15-dataSet')
+setwd('./example')
 data <- read.csv('crucialGene_1.csv', header = T)
 
 # LASSO出图
